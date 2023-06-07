@@ -57,7 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\characters.cs" />
-    <Compile Include="Assets\scripts\dialogue.cs" />
+    <Compile Include="Assets\scripts\player.cs" />
+    <Compile Include="Assets\scripts\controller.cs" />
+    <Compile Include="Assets\scripts\voice.cs" />
+    <Compile Include="Assets\scripts\dialogueDisplay.cs" />
+    <Compile Include="Assets\scripts\talk.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\POLYGON city pack\Read_me.txt" />
