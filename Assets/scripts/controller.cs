@@ -54,7 +54,7 @@ public class controller : MonoBehaviour
             movedir.y -= gravit * Time.deltaTime;
         }
 
-        Handles rotatoiromn;
+       
         characterController.Move(movedir * Time.deltaTime);
         if (movecan)
         {

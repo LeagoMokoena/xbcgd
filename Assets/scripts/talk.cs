@@ -19,4 +19,6 @@ public class talk : ScriptableObject
     public characters left;
     public characters right;
     public line[] lines;
+    public Question question;
+    public talk nwtalk;
 }

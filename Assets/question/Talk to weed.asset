@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd993c1a6f461b40a81d49facc3aded, type: 3}
+  m_Name: Talk to weed
+  m_EditorClassIdentifier: 
+  tex: 'Talk to interest or not '
+  options:
+  - text: Sorry, I'm in a hurry. Maybe another time.
+    _talk_: {fileID: 11400000, guid: 3f32ec45ac357494bb8ebd0b98000051, type: 2}
+  - text: Sure, why not? What do you have in mind?
+    _talk_: {fileID: 11400000, guid: 3f215a119807166498cec5dadcc8a15b, type: 2}

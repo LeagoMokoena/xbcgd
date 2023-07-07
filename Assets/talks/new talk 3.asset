@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26eb7a3dd36c1734693a03db444ce6af, type: 3}
+  m_Name: new talk 3
+  m_EditorClassIdentifier: 
+  left: {fileID: 11400000, guid: a2d571a1c260f6540821a0f4f217a974, type: 2}
+  right: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
+  lines:
+  - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
+    title: "You know\u2026 Stress can weigh you down if you let it. But remember,
+      even in the busiest \r\nof times, you can always find a moment of peace. It's
+      about finding your own rhythm within the \r\nchaos."
+  - people: {fileID: 11400000, guid: a2d571a1c260f6540821a0f4f217a974, type: 2}
+    title: "Yeah, finding peace sounds nice. I need to get this weight off my shoulders.\r"
+  - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
+    title: "Trust me, friend, I've seen the weight of the world on many shoulders.
+      But sometimes, \r\ntaking a step back, embracing the present moment, and just
+      breathing can make all the difference. \r\nLife's too beautiful to let it slip
+      away unnoticed.\r\n"
+  - people: {fileID: 11400000, guid: a2d571a1c260f6540821a0f4f217a974, type: 2}
+    title: 'You have a point. I''ll try to appreciate the little things. '
+  question: {fileID: 0}
+  nwtalk: {fileID: 0}

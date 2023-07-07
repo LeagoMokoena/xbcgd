@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd993c1a6f461b40a81d49facc3aded, type: 3}
+  m_Name: balance
+  m_EditorClassIdentifier: 
+  tex: Talk of finding balance
+  options:
+  - text: I guess you're right. I need to find some balance
+    _talk_: {fileID: 11400000, guid: c5c9c02f54122824c88ee3b26d867197, type: 2}
+  - text: That's easier said than done. I've got deadlines and responsibilities.
+    _talk_: {fileID: 11400000, guid: 80236436dc29d154e965d2725ac7959e, type: 2}

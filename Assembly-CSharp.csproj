@@ -56,12 +56,23 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\scripts\characters.cs" />
+    <Compile Include="Assets\scripts\sceneChnage.cs" />
+    <Compile Include="Assets\scripts\dance\note.cs" />
+    <Compile Include="Assets\scripts\Progress.cs" />
     <Compile Include="Assets\scripts\player.cs" />
-    <Compile Include="Assets\scripts\controller.cs" />
-    <Compile Include="Assets\scripts\voice.cs" />
+    <Compile Include="Assets\scripts\dance\Manager.cs" />
     <Compile Include="Assets\scripts\dialogueDisplay.cs" />
     <Compile Include="Assets\scripts\talk.cs" />
+    <Compile Include="Assets\scripts\dialogueController.cs" />
+    <Compile Include="Assets\scripts\dance\rythmControls.cs" />
+    <Compile Include="Assets\scripts\characters.cs" />
+    <Compile Include="Assets\scripts\dance\arrowScroller.cs" />
+    <Compile Include="Assets\scripts\dialogueChoose.cs" />
+    <Compile Include="Assets\scripts\Affection.cs" />
+    <Compile Include="Assets\scripts\Question.cs" />
+    <Compile Include="Assets\scripts\controller.cs" />
+    <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\scripts\voice.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\POLYGON city pack\Read_me.txt" />
