@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tex: Talk of finding balance
   options:
-  - text: I guess you're right. I need to find some balance
+  - text: Yeah, I'm trying to go with the flow but I have no time for myself now.
     _talk_: {fileID: 11400000, guid: c5c9c02f54122824c88ee3b26d867197, type: 2}
-  - text: That's easier said than done. I've got deadlines and responsibilities.
-    _talk_: {fileID: 11400000, guid: 80236436dc29d154e965d2725ac7959e, type: 2}
+  - text: ' It feels like I''m constantly swimming against the current.'
+    _talk_: {fileID: 11400000, guid: c5c9c02f54122824c88ee3b26d867197, type: 2}

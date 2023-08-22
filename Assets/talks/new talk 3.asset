@@ -16,17 +16,8 @@ MonoBehaviour:
   right: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
   lines:
   - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
-    title: "You know\u2026 Stress can weigh you down if you let it. But remember,
-      even in the busiest \r\nof times, you can always find a moment of peace. It's
-      about finding your own rhythm within the \r\nchaos."
-  - people: {fileID: 11400000, guid: a2d571a1c260f6540821a0f4f217a974, type: 2}
-    title: "Yeah, finding peace sounds nice. I need to get this weight off my shoulders.\r"
-  - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
-    title: "Trust me, friend, I've seen the weight of the world on many shoulders.
-      But sometimes, \r\ntaking a step back, embracing the present moment, and just
-      breathing can make all the difference. \r\nLife's too beautiful to let it slip
-      away unnoticed.\r\n"
-  - people: {fileID: 11400000, guid: a2d571a1c260f6540821a0f4f217a974, type: 2}
-    title: 'You have a point. I''ll try to appreciate the little things. '
+    title: "Ah, the journey... it's a beautiful thing, isn't it? As for the scenery,
+      beauty is subjective, \r\nmy friend. Sometimes you gotta look beyond the surface
+      and find the hidden gems. They're there if \r\nyou open your heart and mind.\n+"
   question: {fileID: 0}
   nwtalk: {fileID: 0}

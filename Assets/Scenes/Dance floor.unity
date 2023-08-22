@@ -264,6 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6814000ae53867248b0045229101257f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _name: Day Onechat 4
 --- !u!1 &102360185
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tex: 'Talk to interest or not '
   options:
-  - text: Sorry, I'm in a hurry. Maybe another time.
+  - text: Oh, hey! Life's been alright, I suppose.
     _talk_: {fileID: 11400000, guid: 3f32ec45ac357494bb8ebd0b98000051, type: 2}
-  - text: Sure, why not? What do you have in mind?
+  - text: ' Same old, same old. Nothing exciting happening.'
     _talk_: {fileID: 11400000, guid: 3f215a119807166498cec5dadcc8a15b, type: 2}

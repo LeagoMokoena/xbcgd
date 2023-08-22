@@ -362,6 +362,7 @@
 "Assets/scripts/dialogueChoose.cs"
 "Assets/scripts/dialogueController.cs"
 "Assets/scripts/dialogueDisplay.cs"
+"Assets/scripts/interactions.cs"
 "Assets/scripts/NewBehaviourScript.cs"
 "Assets/scripts/player.cs"
 "Assets/scripts/Progress.cs"

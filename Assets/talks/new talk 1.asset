@@ -16,12 +16,7 @@ MonoBehaviour:
   right: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
   lines:
   - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
-    title: "No worries, my friend. Life's too short to rush around all the time.
-      Take it easy, and \r\nremember, there's always time for a little sunshine."
-  - people: {fileID: 11400000, guid: a2d571a1c260f6540821a0f4f217a974, type: 2}
-    title: "Yeah, you're right. I should slow down.\r"
-  - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
-    title: "Slow down, man! The universe has its own rhythm. Sometimes, you gotta
-      let go and \r\nflow with it. It's all about finding balance, you know?"
+    title: "Life's like a river, sometimes calm, sometimes rushing. Gotta ride those
+      waves, \r\nyou know?"
   question: {fileID: 11400000, guid: ae9ebd647a6b5f547bb9cf59016ea572, type: 2}
   nwtalk: {fileID: 0}

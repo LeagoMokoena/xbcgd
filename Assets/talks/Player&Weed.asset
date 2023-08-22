@@ -16,7 +16,7 @@ MonoBehaviour:
   right: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
   lines:
   - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
-    title: "Hey there, stranger! What's the rush? Why not take a moment and enjoy
-      the good \r\nvibes?"
+    title: " Hey there, my friend! Fancy running into you again. How's the journey
+      of life treating \r\nyou today?"
   question: {fileID: 11400000, guid: 8e7e0faa9c0b5954882ba8b2f5f35560, type: 2}
   nwtalk: {fileID: 0}

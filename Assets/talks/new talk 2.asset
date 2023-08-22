@@ -16,27 +16,9 @@ MonoBehaviour:
   right: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
   lines:
   - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
-    title: "You know\u2026 Stress can weigh you down if you let it. But remember,
-      even in the busiest \r\nof times, you can always find a moment of peace. It's
-      about finding your own rhythm within the \r\nchaos."
-  - people: {fileID: 11400000, guid: a2d571a1c260f6540821a0f4f217a974, type: 2}
-    title: ' I don''t know, man. It feels like everything''s piling up on me.'
-  - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
-    title: "Trust me, friend, I've seen the weight of the world on many shoulders.
-      But sometimes, \r\ntaking a step back, embracing the present moment, and just
-      breathing can make all the difference. \r\nLife's too beautiful to let it slip
-      away unnoticed.\r\n"
-  - people: {fileID: 11400000, guid: a2d571a1c260f6540821a0f4f217a974, type: 2}
-    title: ' I appreciate the sentiment, but it''s not that simple for me.'
-  - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
-    title: "I get it, man. Life can be complicated. But even in complexity, simplicity
-      can be found. \r\nEmbrace the beauty around you, and let the worries melt away.
-      Remember, happiness is a journey, \r\nnot a destination."
-  - people: {fileID: 11400000, guid: a2d571a1c260f6540821a0f4f217a974, type: 2}
-    title: " I'll try to find happiness in the journey, but it's not always easy.\r"
-  - people: {fileID: 11400000, guid: 727ac516f4723bb41a0db05cf220ee2f, type: 2}
-    title: "I hear you, my friend. Life has its ups and downs, but it's the journey
-      that shapes us. \r\nKeep your head up, find joy in the small moments, and let
-      the good vibes guide you. Remember, \r\nyou're never alone on this crazy ride."
-  question: {fileID: 0}
+    title: "Going with the flow is where it's at, my friend. The universe has a plan,
+      and sometimes \r\nit's best to trust it. But hey, swimming against the current
+      builds strength too. Just don't forget to \r\ncatch your breath and enjoy the
+      scenery once in a while.\r"
+  question: {fileID: 11400000, guid: 49a99f9a7e11393408817e7610134e31, type: 2}
   nwtalk: {fileID: 0}

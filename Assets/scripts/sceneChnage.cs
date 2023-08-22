@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class sceneChnage : MonoBehaviour
 {
+    public string _name;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,6 @@ public class sceneChnage : MonoBehaviour
 
     public void change()
     {
-        SceneManager.LoadScene("CHAT");
+        SceneManager.LoadScene(_name);
     }
 }

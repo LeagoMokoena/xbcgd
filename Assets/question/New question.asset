@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tex: 'Saying thanks '
   options:
-  - text: Thanks for the reminder. I'll try to stay positive.
+  - text: Thanks but I have to get going now
     _talk_: {fileID: 11400000, guid: 62f98d520acc5674d88ee58888bbf2f0, type: 2}
-  - text: I appreciate the advice. I'll see if I can find some joy along the way.
-    _talk_: {fileID: 11400000, guid: 62f98d520acc5674d88ee58888bbf2f0, type: 2}
+  - text: I guess the scenery isn't always that great though.
+    _talk_: {fileID: 11400000, guid: 80236436dc29d154e965d2725ac7959e, type: 2}
