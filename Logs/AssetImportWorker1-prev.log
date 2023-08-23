@@ -15,7 +15,7 @@ C:/Users/leago/Documents/GitHub/xbcgd
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61047
+57562
 Successfully changed project path to: C:/Users/leago/Documents/GitHub/xbcgd
 C:/Users/leago/Documents/GitHub/xbcgd
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/leago/Documents/GitHub/xbcgd
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 160.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,272 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004992 seconds.
+Registered in 0.004892 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 92.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.631 seconds
+- Completed reload, in  0.724 seconds
 Domain Reload Profiling:
-	ReloadAssembly (632ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (456ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
+				RefreshPlugins (101ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005958 seconds.
+Registered in 0.006856 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
+- Completed reload, in  1.417 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1008ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (780ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (372ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3856.
-Memory consumption went from 119.4 MB to 119.3 MB.
-Total: 3.195000 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.113100 ms MarkObjects: 2.716500 ms  DeleteObjects: 0.101000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 482070.374423 seconds.
-  path: Assets/talks/new talk 2.asset
-  artifactKey: Guid(c5c9c02f54122824c88ee3b26d867197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/talks/new talk 2.asset using Guid(c5c9c02f54122824c88ee3b26d867197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb024134847794aad85bf9a7caa0836d') in 0.068704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/talks/Player&Weed.asset
-  artifactKey: Guid(5c9e1543c2a22744f82b5faf2b7dc4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/talks/Player&Weed.asset using Guid(5c9e1543c2a22744f82b5faf2b7dc4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d08185256636865e516631a801f0b3f') in 0.011097 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006442 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1221ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (973ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (450ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3860.
-Memory consumption went from 119.4 MB to 119.3 MB.
-Total: 4.842000 ms (FindLiveObjects: 0.596600 ms CreateObjectMapping: 0.120000 ms MarkObjects: 3.959900 ms  DeleteObjects: 0.163300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006229 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1099ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (816ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (325ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3863.
-Memory consumption went from 119.4 MB to 119.3 MB.
-Total: 3.007900 ms (FindLiveObjects: 0.216100 ms CreateObjectMapping: 0.151300 ms MarkObjects: 2.559200 ms  DeleteObjects: 0.080400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005690 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.144 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1145ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1419ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (836ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1149ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
+			SetupTypeCache (387ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (365ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (488ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3866.
+Unloading 3398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.5 KB). Loaded Objects now: 3857.
 Memory consumption went from 119.4 MB to 119.3 MB.
-Total: 5.675600 ms (FindLiveObjects: 0.643300 ms CreateObjectMapping: 0.241500 ms MarkObjects: 4.653200 ms  DeleteObjects: 0.135600 ms)
+Total: 4.651800 ms (FindLiveObjects: 0.299800 ms CreateObjectMapping: 0.116400 ms MarkObjects: 3.960800 ms  DeleteObjects: 0.273700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -343,192 +160,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 974.336107 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/ChangesTabPageView.uxml
-  artifactKey: Guid(a1c552fb05993cf4eac00d572aa408f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/ChangesTabPageView.uxml using Guid(a1c552fb05993cf4eac00d572aa408f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141299a49c49287a78a4f84698add41d') in 0.042232 seconds 
+  Time since last request: 18573.860551 seconds.
+  path: Assets/scripts/interactions.cs
+  artifactKey: Guid(7d5f1bde165f94341b309eeca271e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/interactions.cs using Guid(7d5f1bde165f94341b309eeca271e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f57cc36a3ab3c3abb85ecf20f6af9e') in 0.095173 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.200470 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/ChangesGroupHeader.uxml
-  artifactKey: Guid(19d5aba5e2682314190477298a0313fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/ChangesGroupHeader.uxml using Guid(19d5aba5e2682314190477298a0313fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274a5e89789c7cda8383cfe0d606d294') in 0.024628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.239434 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Props/Can_orange prefab.prefab
-  artifactKey: Guid(fc7f1d4af8d817e4f98e42d198325d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Props/Can_orange prefab.prefab using Guid(fc7f1d4af8d817e4f98e42d198325d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865e623cb4d7625ba70e7806c5bf5198') in 0.158930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Demos/Pandazole Simple Game.fbx
-  artifactKey: Guid(d7eaca9659114a44d8367d36668c5616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Demos/Pandazole Simple Game.fbx using Guid(d7eaca9659114a44d8367d36668c5616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d23762f82f2f5adb0d2aff69ea3be2') in 0.497960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Props/Bus stop pole prefabe.prefab
-  artifactKey: Guid(937333d453eaea246af48ac0fc62b5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Props/Bus stop pole prefabe.prefab using Guid(937333d453eaea246af48ac0fc62b5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c58132f10dcb97ae547316d6439b8') in 0.049232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/bumb.mat
-  artifactKey: Guid(1ccafd7f26be1914ea4dee16096875f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/bumb.mat using Guid(1ccafd7f26be1914ea4dee16096875f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14ee105a68ae62cdb3aed651aad35a3') in 0.041676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/bush 2.png
-  artifactKey: Guid(bc8acc0684df1584a8c0857eb4114642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/bush 2.png using Guid(bc8acc0684df1584a8c0857eb4114642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c6db8fc6103a4993354b0a5958358d') in 0.075417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/BurgerShop_sign.png
-  artifactKey: Guid(bb5cfbdd0a8fb8c4ebffa31636a05046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/BurgerShop_sign.png using Guid(bb5cfbdd0a8fb8c4ebffa31636a05046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a42c5c2c89619251c271c5fe1b8d29f') in 0.023420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/bush leafes.mat
-  artifactKey: Guid(469422241fc9b524aa56ce41cd35576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/bush leafes.mat using Guid(469422241fc9b524aa56ce41cd35576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ebae713b83ddee65e49d5c9dd2e262') in 0.028873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/bus stop sign texture.mat
-  artifactKey: Guid(fe8cf9c3c842913439a86fe0619f7be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/bus stop sign texture.mat using Guid(fe8cf9c3c842913439a86fe0619f7be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccc4e3d7eb8dca34b3ff64697f080f8') in 0.023741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Bus stop pole.fbx
-  artifactKey: Guid(535449b4078b1034cb336afbe0510ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Bus stop pole.fbx using Guid(535449b4078b1034cb336afbe0510ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e7439da725dabfa5f69e9f61c73eb0') in 0.032594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Props/bush prefab.prefab
-  artifactKey: Guid(fb63f2d87ad55dd42891f1e2dbfe660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Props/bush prefab.prefab using Guid(fb63f2d87ad55dd42891f1e2dbfe660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c84fe6b3bf07c02a61ef98990654460') in 0.071646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/bush.fbx
-  artifactKey: Guid(d0300cf9cefd50f4fb857811505e40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/bush.fbx using Guid(d0300cf9cefd50f4fb857811505e40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe5fffcdac788f28a8e10ff4f23b17e') in 0.030161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/bush leafes.png
-  artifactKey: Guid(f022620d8f31ed446a220a043d553f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/bush leafes.png using Guid(f022620d8f31ed446a220a043d553f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a29ea624b95b3ad94e802ace13cef2f') in 0.015310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/bus stop pole texture 1.png
-  artifactKey: Guid(d44a52891cea8d74b9d897dee320c982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/bus stop pole texture 1.png using Guid(d44a52891cea8d74b9d897dee320c982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4268a9b653f914129c01c703366f3b') in 0.016983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Burger 1.png
-  artifactKey: Guid(c1f339c09b1efd9428775de3b348bf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Burger 1.png using Guid(c1f339c09b1efd9428775de3b348bf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fd25eacd6f5e3cf6f63a8fbc839707') in 0.025329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Props/Bus stop prefab.prefab
-  artifactKey: Guid(30916da9dd66da74d8e831f29c0b250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Props/Bus stop prefab.prefab using Guid(30916da9dd66da74d8e831f29c0b250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b834624a5436e7d8b6de247cd52d8c0a') in 0.091119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Props/Bush 2 mass prefab.prefab
-  artifactKey: Guid(7c311e85b96e43d4aaaf68e86c127195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Props/Bush 2 mass prefab.prefab using Guid(7c311e85b96e43d4aaaf68e86c127195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4e5976fd0683513bbc493560e03e10') in 0.021788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Bush.mat
-  artifactKey: Guid(a0872f5455af226459a2769d0bdf9265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Bush.mat using Guid(a0872f5455af226459a2769d0bdf9265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decc779c4afb1df6836271a07840f4fe') in 0.026825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/bus stop texture.png
-  artifactKey: Guid(29e47224d8f69094c8cd493e7ef446a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/bus stop texture.png using Guid(29e47224d8f69094c8cd493e7ef446a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4eef8fe57af9055119ea0748fc7c39') in 0.015816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/BurgerSho_Sign.fbx
-  artifactKey: Guid(d616995adade3b44e859e01e16febbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/BurgerSho_Sign.fbx using Guid(d616995adade3b44e859e01e16febbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e33545c3866533e7d5d46b64033c00') in 0.023287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Props/Can_cola 1 prefab.prefab
-  artifactKey: Guid(81d26dcff31f3ee45a7af58439d44b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Props/Can_cola 1 prefab.prefab using Guid(81d26dcff31f3ee45a7af58439d44b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e27b99b268a3c7e6c56b79ccd9b66b') in 0.026019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Can_Cola.png
-  artifactKey: Guid(f955b0b2037cf4943b20459c86b316b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Can_Cola.png using Guid(f955b0b2037cf4943b20459c86b316b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bb27df091cd464cfecfc4a7564d2d8') in 0.063907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Bus stop.fbx
-  artifactKey: Guid(89c3425c9ff526249a9bf0126e4a97f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Bus stop.fbx using Guid(89c3425c9ff526249a9bf0126e4a97f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99633e7a2131a8f1eb3e7550d7829db') in 0.047406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.579599 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Black.mat
-  artifactKey: Guid(4f7ccea6dc574aa448cc80ade94bd231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Black.mat using Guid(4f7ccea6dc574aa448cc80ade94bd231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaccd5f68fd5df27e4937afe9ef91dd') in 0.033954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/BaseChangeListElement.uxml
-  artifactKey: Guid(bef3e204cca87f74199fb125d726b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/BaseChangeListElement.uxml using Guid(bef3e204cca87f74199fb125d726b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69058584b1f0282162078c121f527107') in 0.021820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/BaseChangeListElement.uss
-  artifactKey: Guid(1e9148bf9d78e0943aeac7855e43585e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/BaseChangeListElement.uss using Guid(1e9148bf9d78e0943aeac7855e43585e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08525f9675d371016da3f376289cdb77') in 0.016221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/ATM texture.mat
-  artifactKey: Guid(080610dfd028a5b47bd2deadb789ebac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/ATM texture.mat using Guid(080610dfd028a5b47bd2deadb789ebac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d742fdd0dcdaee730144b0224b37d7') in 0.025156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Bench texture.png
-  artifactKey: Guid(9a4a04b84933213428ed33e0c31813b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Bench texture.png using Guid(9a4a04b84933213428ed33e0c31813b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be58cd3bc098ddfa6760ad64640936eb') in 0.021902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Blue.mat
-  artifactKey: Guid(82da9dd8eb8243145b9284b853d232b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Blue.mat using Guid(82da9dd8eb8243145b9284b853d232b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0826c77c9277830a09b067aaaa2b6992') in 0.029225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/ATM.fbx
-  artifactKey: Guid(ffb33e8324df18545a589ed2d6777750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/ATM.fbx using Guid(ffb33e8324df18545a589ed2d6777750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fb47527240b20050fd43c2848fe21d') in 0.023835 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005939 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3860.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 3.165900 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.701500 ms  DeleteObjects: 0.110300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

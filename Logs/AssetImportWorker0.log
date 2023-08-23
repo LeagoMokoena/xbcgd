@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 14188 MB
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32438 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/leago/Documents/GitHub/xbcgd
+C:/Users/nadia/OneDrive/Documents/Year 3/Semester 1/XBCGD7311/POE/xbcgd
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57562
-Successfully changed project path to: C:/Users/leago/Documents/GitHub/xbcgd
-C:/Users/leago/Documents/GitHub/xbcgd
+60595
+Successfully changed project path to: C:/Users/nadia/OneDrive/Documents/Year 3/Semester 1/XBCGD7311/POE/xbcgd
+C:/Users/nadia/OneDrive/Documents/Year 3/Semester 1/XBCGD7311/POE/xbcgd
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,130 @@ C:/Users/leago/Documents/GitHub/xbcgd
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 114.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.9f1 (ad3870b89536)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/leago/Documents/GitHub/xbcgd/Assets
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nadia/OneDrive/Documents/Year 3/Semester 1/XBCGD7311/POE/xbcgd/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
-    Vendor:   ATI
-    VRAM:     7094 MB
-    Driver:   31.0.12028.2
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2879
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008391 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005145 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.90 ms, found 3 plugins.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
+- Completed reload, in  0.507 seconds
 Domain Reload Profiling:
-	ReloadAssembly (729ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (507ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (529ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (113ms)
+			SetupTypeCache (83ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (320ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (57ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006247 seconds.
+Registered in 0.003119 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nadia\OneDrive\Documents\Year 3\Semester 1\XBCGD7311\POE\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nadia\OneDrive\Documents\Year 3\Semester 1\XBCGD7311\POE\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.459 seconds
+- Completed reload, in  0.906 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1460ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (907ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1185ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (433ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (502ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (299ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3398 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.5 KB). Loaded Objects now: 3857.
-Memory consumption went from 119.4 MB to 119.3 MB.
-Total: 4.079800 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.150200 ms MarkObjects: 3.417600 ms  DeleteObjects: 0.132500 ms)
+Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3859.
+Memory consumption went from 119.5 MB to 119.4 MB.
+Total: 4.401700 ms (FindLiveObjects: 0.338300 ms CreateObjectMapping: 0.206900 ms MarkObjects: 3.717900 ms  DeleteObjects: 0.136900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,59 +184,278 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006044 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\leago\Documents\GitHub\xbcgd\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1087ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (830ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (366ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3860.
-Memory consumption went from 119.4 MB to 119.3 MB.
-Total: 3.290800 ms (FindLiveObjects: 0.248800 ms CreateObjectMapping: 0.104800 ms MarkObjects: 2.832800 ms  DeleteObjects: 0.102900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 307004.643711 seconds.
+  path: Assets/Weed.png
+  artifactKey: Guid(ba28cb928fd861a478b184a6c17b61d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weed.png using Guid(ba28cb928fd861a478b184a6c17b61d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6184c4666fadf708509a64a66b7062ea') in 0.226039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Player.png
+  artifactKey: Guid(5b78013e5c161bc4d8279b305e97234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.png using Guid(5b78013e5c161bc4d8279b305e97234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab19a962a8140c05e2cb343f587d300') in 0.087941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.582662 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2dd2fcfb070eff30dd06220f902a2a') in 0.149468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.632603 seconds.
+  path: Assets/CasualGameSounds
+  artifactKey: Guid(b5bfdca0a8fe87f4c87467f1acafd75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds using Guid(b5bfdca0a8fe87f4c87467f1acafd75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097394f042e4f0f1b574060c0008962d') in 0.015487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182804 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-01.wav
+  artifactKey: Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-01.wav using Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888ad95ff8e6db4f0e3b6872a4675b59') in 0.106185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-47.wav
+  artifactKey: Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-47.wav using Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a354b75c36822142efd288d75a010a') in 0.018977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-38.wav
+  artifactKey: Guid(84e427d6b66ab4066b6a4dcd0ce819ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-38.wav using Guid(84e427d6b66ab4066b6a4dcd0ce819ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa894b9ae73aff51856b5d55e6ba8f2d') in 0.023783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-19.wav
+  artifactKey: Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-19.wav using Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a337bdbbf806fa40834e10e9805d17') in 0.026753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-24.wav
+  artifactKey: Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-24.wav using Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bf8f88502be3878c5bab8b2e9dc516') in 0.023380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-17.wav
+  artifactKey: Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-17.wav using Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408792a5b7b82ad963d6690634f4ed85') in 0.025437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-07.wav
+  artifactKey: Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-07.wav using Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99f9e59bdbc2cbdaab3fb754d21b85d') in 0.027380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-48.wav
+  artifactKey: Guid(7e26c9daf4c32483b9c2790e662d3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-48.wav using Guid(7e26c9daf4c32483b9c2790e662d3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476c4082ce5711e3e6518662ebc6fb14') in 0.018127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-05.wav
+  artifactKey: Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-05.wav using Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1ed0cd1493183d15bb678c4429d2f3') in 0.019491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-49.wav
+  artifactKey: Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-49.wav using Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a431ee4ccac29f507856f7d7477c214b') in 0.017752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-40.wav
+  artifactKey: Guid(0994c12e202f342459a4212e7287f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-40.wav using Guid(0994c12e202f342459a4212e7287f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30eaad61d1572681f703cf723d08e795') in 0.016481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-41.wav
+  artifactKey: Guid(7e9ee6dc04a5d40d1a5dfc4beb9865e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-41.wav using Guid(7e9ee6dc04a5d40d1a5dfc4beb9865e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7899292f080cd920bbca6137ff2b956') in 0.015956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-37.wav
+  artifactKey: Guid(a931da70ee74947d5a047de583170ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-37.wav using Guid(a931da70ee74947d5a047de583170ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297c7bfab018f0c78b2f8b5b4c6b534b') in 0.019563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-27.wav
+  artifactKey: Guid(5039414d94a6e4e70a5ab9e8833e992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-27.wav using Guid(5039414d94a6e4e70a5ab9e8833e992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d735cae5f0b431e9a7ff23f117b1877') in 0.019481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-22.wav
+  artifactKey: Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-22.wav using Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617e580dcb6ef8d2343b44797940698b') in 0.019652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-12.wav
+  artifactKey: Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-12.wav using Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bace9d4d08e5fa7ef81ca112d7a9021f') in 0.020138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-11.wav
+  artifactKey: Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-11.wav using Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a0bf0d3ea95c0db4194382c763f1b8') in 0.020248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-45.wav
+  artifactKey: Guid(52320e590bf774734a288886eba557ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-45.wav using Guid(52320e590bf774734a288886eba557ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983986138f19e7ee50e6da504a0cd187') in 0.017712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-26.wav
+  artifactKey: Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-26.wav using Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b546bb6dc2f5840353e100ce7a65508') in 0.017502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-46.wav
+  artifactKey: Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-46.wav using Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7011da5ba7c84722a33215d5cf5c0e8') in 0.019383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-08.wav
+  artifactKey: Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-08.wav using Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cf59dbfc70983640a9ffe724e02a6b') in 0.018222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-09.wav
+  artifactKey: Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-09.wav using Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385b784bf18465f14bbb5c92e33182d4') in 0.020237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-43.wav
+  artifactKey: Guid(4b4dd7245f6104c8c8eb07ccf6b386ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-43.wav using Guid(4b4dd7245f6104c8c8eb07ccf6b386ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159cc0c1902261d0374bf2c544be74f9') in 0.018584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-28.wav
+  artifactKey: Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-28.wav using Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1395228f830f124a0de907c97ccd2149') in 0.016742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-44.wav
+  artifactKey: Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-44.wav using Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1198ece9eac9950b59c3443c01ca1c95') in 0.018350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.114373 seconds.
+  path: Assets/characters/someone.asset
+  artifactKey: Guid(a074406cd44406e4fba7130e3856e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/someone.asset using Guid(a074406cd44406e4fba7130e3856e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d7e5ab4b6c24a6b8346fecbbc6978d') in 0.012756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.653344 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Axe_01.prefab
+  artifactKey: Guid(a028d11266903c34b845c1a69e33062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Axe_01.prefab using Guid(a028d11266903c34b845c1a69e33062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7d8861da2c8b53980a527bf9b93077') in 0.038686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_Straight_01.prefab
+  artifactKey: Guid(ec173c3a0dd044d49aa76756e6f62837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_Straight_01.prefab using Guid(ec173c3a0dd044d49aa76756e6f62837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeb1f996b47e8332e72d46897ee7bf4') in 0.026486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Carpet_01.prefab
+  artifactKey: Guid(9e0ef940f3c18ec4fae5bcbadf9406cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Carpet_01.prefab using Guid(9e0ef940f3c18ec4fae5bcbadf9406cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f714edc0730d3584eecf42ccb7cb0ba6') in 0.024530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Knife_01.prefab
+  artifactKey: Guid(695a4b22bfcfffa408b67d4e0a392673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Knife_01.prefab using Guid(695a4b22bfcfffa408b67d4e0a392673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389325eabd1fde0e7e04a2693d5931dd') in 0.018837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Sofa_01.prefab
+  artifactKey: Guid(96b7ca556ce445e47830fa1101bcdd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Sofa_01.prefab using Guid(96b7ca556ce445e47830fa1101bcdd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3c87ec2108f557b4d5830629e768cd') in 0.028430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_Grass_01.prefab
+  artifactKey: Guid(623f6e318aac73947a34de78282715b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_Grass_01.prefab using Guid(623f6e318aac73947a34de78282715b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b69279a5fe7bbfec057508eaa7a0a2') in 0.024832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_ModernTV.prefab
+  artifactKey: Guid(e6ebbc43f51b43f4bb7907ee6939a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_ModernTV.prefab using Guid(e6ebbc43f51b43f4bb7907ee6939a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c74bc44af523d7b486d682f3af8e630') in 0.018578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/SodaCan.prefab
+  artifactKey: Guid(54bf41ce18711524195534092b648214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/SodaCan.prefab using Guid(54bf41ce18711524195534092b648214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054a850d537b0bfeca98cae2e4f8760b') in 0.033551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TV_Table.prefab
+  artifactKey: Guid(7e399f3872d332b4faec96793c759cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TV_Table.prefab using Guid(7e399f3872d332b4faec96793c759cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c3018207137cf64f314d7d1c2dbe98') in 0.024878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_End_02.prefab
+  artifactKey: Guid(4f04aa6fd2801ac4b995145cee649fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_End_02.prefab using Guid(4f04aa6fd2801ac4b995145cee649fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda3c685b8b21ea649d18d3ba5087b30') in 0.022213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Food_Egg.prefab
+  artifactKey: Guid(fcc36f1d4ce74c7449a72822ff6449e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Food_Egg.prefab using Guid(fcc36f1d4ce74c7449a72822ff6449e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080e249d647af35495c117635d019f87') in 0.020695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Table_01.001.prefab
+  artifactKey: Guid(d0170e45993037d4090f306552db19de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Table_01.001.prefab using Guid(d0170e45993037d4090f306552db19de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e1fc430d1567c424c63d9076ce6e9b') in 0.024138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Bow_01.prefab
+  artifactKey: Guid(68137c2112088dd47ad3cb1b2ff2341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Bow_01.prefab using Guid(68137c2112088dd47ad3cb1b2ff2341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e88b46a0ba89d975c792d1d904911c4') in 0.022340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/GroundBase_01.prefab
+  artifactKey: Guid(d209655c06f7fe040a0f4b8c5c946bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/GroundBase_01.prefab using Guid(d209655c06f7fe040a0f4b8c5c946bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2decb22c579f094036c6ab95fc8e50ec') in 0.018667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_HomeLamp_01.prefab
+  artifactKey: Guid(54347665f552b5947b0c94d664faf2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_HomeLamp_01.prefab using Guid(54347665f552b5947b0c94d664faf2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e75f757695c134d48e11320e26a205') in 0.019712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_WallShelf_02.prefab
+  artifactKey: Guid(42107521ef2a7044d82e542572b54888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_WallShelf_02.prefab using Guid(42107521ef2a7044d82e542572b54888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316a36137c6844aaf228bf9c58c6c6e5') in 0.020989 seconds 
