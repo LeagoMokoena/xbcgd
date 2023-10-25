@@ -70,13 +70,13 @@
     <Compile Include="Assets\scripts\characters.cs" />
     <Compile Include="Assets\scripts\dance\arrowScroller.cs" />
     <Compile Include="Assets\scripts\dialogueChoose.cs" />
+    <Compile Include="Assets\scripts\NewBehaviourScript1.cs" />
     <Compile Include="Assets\scripts\interactions.cs" />
     <Compile Include="Assets\scripts\Affection.cs" />
     <Compile Include="Assets\scripts\Question.cs" />
     <Compile Include="Assets\scripts\controller.cs" />
     <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\scripts\voice.cs" />
-    <Compile Include="Assets\scripts\NewBehaviourScript1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\POLYGON city pack\Read_me.txt" />
