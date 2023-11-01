@@ -363,6 +363,7 @@
 "Assets/scripts/dance/Manager.cs"
 "Assets/scripts/dance/note.cs"
 "Assets/scripts/dance/rythmControls.cs"
+"Assets/scripts/daysStory.cs"
 "Assets/scripts/dialogueChoose.cs"
 "Assets/scripts/dialogueController.cs"
 "Assets/scripts/dialogueDisplay.cs"

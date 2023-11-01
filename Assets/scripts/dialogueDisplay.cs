@@ -3,133 +3,256 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
+using Ink.Runtime;
 
 [System.Serializable]
 public class questionEvent : UnityEvent<Question> { }
 
 public class dialogueDisplay : MonoBehaviour
 {
-    public talk _talk;
-    public talk deflaut;
-    public questionEvent QuestionEvent;
+    const float TEXT_DISPLAY_SPEED = 0.03f;
+    const int TEXT_SCALE_START_DELTA = -40;
+    const int TALKING_SOUND_DELAY = 3;
 
-    public GameObject left;
-    public GameObject right;
+    [Header("Story")]
+    public TextAsset inkFile;
+    static Story story;
 
-    private voice Lspeaker;
-    private voice Rspeaker;
+    [Header("UI")]
+    GameObject[] buttons; // All buttons
+    public TextMeshProUGUI message; // Dialog displaying text
+    public ButtonAnimator buttonAnimator; // Controls animations for all buttons
+    public Image proceedGraphic; // Bobbing arrow to show dialogue is done
 
-    private int activeLine = 0;
-    private bool talkstArt = false;
+    // Related to text appearing
+    bool canContinue = true;
+    float startTextSize;
+    bool madeDecision = true;
+    bool fastForwarding;
+    Coroutine fastForwardCoroutine;
 
-    public void changes(talk _talk_)
+    [Header("Sounds")]
+    public AudioSource talkingSound;
+    public AudioSource selectionSound;
+
+    InputMaster inputs;
+
+    [Header("Character")]
+    public Animator characterAnimator;
+
+    #region Inputs and Buttons Set-Up
+
+    // Initialize variables
+    private void Awake()
     {
-        talkstArt = false;
-        _talk = _talk_;
-        advance();
+        inputs = new InputMaster();
+        inputs.InGame.AdvanceDialog.performed += ctx => ContinueStory();
+        inputs.InGame.FastForward.started += ctx => fastForwardCoroutine = StartCoroutine(FastForwardingHold());
+        inputs.InGame.FastForward.canceled += ctx => StopCoroutine(fastForwardCoroutine);
+        inputs.InGame.FastForward.canceled += ctx => fastForwarding = false;
+        inputs.Enable();
+
+        buttons = GetComponentInChildren<ButtonAnimator>().buttons;
     }
 
-    // Start is called before the first frame update
+    // Disables inputs when object is set inactive
+    private void OnDisable() { inputs.Disable(); }
+
+    #endregion
+
+    // Set-up
     void Start()
     {
-        Lspeaker = left.GetComponent<voice>();
-        Rspeaker = right.GetComponent<voice>();
-
-
+        startTextSize = message.fontSize;
+        story = new Story(inkFile.text);
+        proceedGraphic.enabled = false;
+        ContinueStory();
     }
 
-    // Update is called once per frame
-    void Update()
+    // Advances dialog if able; otherwise, ends story. Called with press of primary button
+    public void ContinueStory()
     {
-        if (Input.GetKeyDown("space"))
+        if (story.canContinue && madeDecision)
         {
-            advance();
+            if (canContinue)
+                AdvanceDialog();
+            else
+                fastForwarding = true;
         }
-        else if (Input.GetKeyDown("z"))
+        else if (madeDecision && canContinue)
+            FinishDialog();
+    }
+
+    // Advances dialog
+    void AdvanceDialog()
+    {
+        string curSentence = story.Continue();
+        ParseTags();
+        StartCoroutine(ShowDialog(curSentence));
+    }
+
+    // Checks tags for commands (currently used only for the character animation)
+    void ParseTags()
+    {
+        // Doesn't parse tags if no animator attached
+        if (characterAnimator == null | story.currentTags.Count == 0)
+            return;
+
+        // Checks each tag
+        foreach (string t in story.currentTags)
         {
-            endtalk();
-            GameObject.FindWithTag("progress").GetComponent<Affection>().ammoi += 2;
-        }
-        else if (Input.GetKeyDown("t"))
-        {
-            endtalk();
+            string prefix = t.Split(' ')[0];
+            string param = t.Split(' ')[1];
+
+            switch (prefix.ToLower())
+            {
+                case "anim":
+                    SetAnimation(param);
+                    break;
+            }
         }
     }
 
-    private void endtalk()
+    // Sets animation of the character. Called by ParseTags()
+    void SetAnimation(string param)
     {
-        _talk = null;
-        talkstArt = false;
-        Lspeaker.gameObject.SetActive(false);
-        Rspeaker.gameObject.SetActive(false);
-        SceneManager.LoadScene("SampleScene");
+        switch (param)
+        {
+            case "idle":
+                characterAnimator.SetTrigger("Idle");
+                break;
+            case "questioning":
+                characterAnimator.SetTrigger("Questioning");
+                break;
+            case "happy":
+                characterAnimator.SetTrigger("Happy");
+                break;
+            case "invisible":
+                characterAnimator.SetTrigger("Invisible");
+                break;
+        }
     }
 
-    private void Initialize()
+    // Shows buttons for player to make a choice
+    void ShowChoices()
     {
-        talkstArt = true;
-        activeLine = 0;
-        Lspeaker.Speaker = _talk.left;
-        Rspeaker.Speaker = _talk.right;
+        List<Choice> choices = story.currentChoices;
+
+        // Throws error if more choices than available buttons
+        if (choices.Count > buttons.Length)
+        {
+            Debug.LogError("More choices than buttons");
+            return;
+        }
+
+        madeDecision = false;
+
+        // Sets buttons
+        for (int x = 0; x < choices.Count; x++)
+        {
+            buttons[x].transform.GetComponentInChildren<TextMeshProUGUI>().text = choices[x].text;
+            buttons[x].GetComponent<Selectable>().element = choices[x];
+        }
+        buttonAnimator.Appear(choices.Count);
     }
 
-    void advance()
+    // Ends dialog and loads next scene
+    void FinishDialog()
     {
-        if (_talk == null) return;
-        if (!talkstArt)
-        {
-            Initialize();
+        // FIXME Put an end behavior such as loading next scene
+    }
 
+    /* Selects a decision. Called by choice button's script
+     * @param element Choice selected
+     */
+    public void SetDecision(Choice element)
+    {
+        if (element == null)
+            return;
+        selectionSound.Play();
+        story.ChooseChoiceIndex(element.index);
+        AdvanceFromDecision();
+    }
+
+    // Advances dialog following decision
+    void AdvanceFromDecision()
+    {
+        madeDecision = true;
+        buttonAnimator.Disappear();
+        if (story.canContinue)
+            AdvanceDialog();
+    }
+
+    /* Shows dialog character-by-character. Also does a fancy letter-scaling effect.
+     * @param sentence segment of dialog to display
+     */
+    IEnumerator ShowDialog(string sentence)
+    {
+        canContinue = false;
+        List<float> letterSizes = new List<float>();
+
+        talkingSound.Play();
+        int soundCounter = 0;
+
+        proceedGraphic.enabled = false;
+
+        // Printing text
+        for (int index = 0; index < sentence.Length; index++)
+        {
+            letterSizes.Add(startTextSize + TEXT_SCALE_START_DELTA);
+            message.text = "";
+            for (int letNum = 0; letNum < letterSizes.Count; letNum++)
+            {
+                message.text += "<size=" + letterSizes[letNum] + ">" + sentence.Substring(letNum, 1) + "</size>";
+                letterSizes[letNum] = Mathf.SmoothStep(letterSizes[letNum], startTextSize, 0.5f);
+            }
+            soundCounter++;
+            if (soundCounter > TALKING_SOUND_DELAY)
+            {
+                soundCounter = 0;
+                talkingSound.Play();
+            }
+            if (fastForwarding)
+                yield return new WaitForSecondsRealtime(TEXT_DISPLAY_SPEED / 2);
+            else
+                yield return new WaitForSecondsRealtime(TEXT_DISPLAY_SPEED);
         }
 
-        if (activeLine < _talk.lines.Length)
+        // Shrinking text after all text has been displayed
+        while (letterSizes[sentence.Length - 1] < startTextSize - 1)
         {
-            display();
+            message.text = "";
+            for (int letNum = 0; letNum < letterSizes.Count; letNum++)
+            {
+                message.text += "<size=" + letterSizes[letNum] + ">" + sentence.Substring(letNum, 1) + "</size>";
+                letterSizes[letNum] = Mathf.SmoothStep(letterSizes[letNum], startTextSize, 0.5f);
+            }
+            if (fastForwarding)
+                yield return new WaitForSecondsRealtime(TEXT_DISPLAY_SPEED / 2);
+            else
+                yield return new WaitForSecondsRealtime(TEXT_DISPLAY_SPEED);
         }
+        message.text = "<size=" + startTextSize + ">" + sentence + "</size>";
+
+        if (story.currentChoices.Count > 0)
+            ShowChoices();
         else
-        {
-            Advancetalk();
-        }
+            proceedGraphic.enabled = true;
+        fastForwarding = false;
+        canContinue = true;
+
     }
 
-    void display()
+    // Keeps fastForward set to true while speed up button pressed
+    IEnumerator FastForwardingHold()
     {
-        line l = _talk.lines[activeLine];
-        characters pe = l.people;
-
-        if (Lspeaker.isSpeaking(pe))
+        while (true)
         {
-            setdia(Lspeaker, Rspeaker, l.title);
-        }
-        else
-        {
-            setdia(Rspeaker, Lspeaker, l.title);
-        }
-
-        activeLine++;
-
-    }
-
-    private void Advancetalk()
-    {
-        if (_talk.question != null)
-            QuestionEvent.Invoke(_talk.question);
-        else if (_talk.nwtalk != null)
-            changes(_talk.nwtalk);
-        else
-        {
-            endtalk();
+            fastForwarding = true;
+            yield return null;
         }
     }
-
-    void setdia(voice active, voice inactive, string text)
-    {
-        active.dialogue = text;
-        active.gameObject.SetActive(true);
-        inactive.gameObject.SetActive(false);
-
-
-    }
-
 }
 

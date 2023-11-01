@@ -30,17 +30,7 @@ MonoBehaviour:
     unhandledCompileErrors: []
     recursiveIncludeErrorPaths: []
     errors: []
-    warnings:
-    - type: 1
-      content: Apparent loose end exists where the flow runs out. Do you need a '->
-        DONE' statement, choice or divert?
-      relativeFilePath: Weed diologue.ink
-      lineNumber: 26
-    - type: 1
-      content: Apparent loose end exists where the flow runs out. Do you need a '->
-        DONE' statement, choice or divert?
-      relativeFilePath: Weed diologue.ink
-      lineNumber: 30
+    warnings: []
     todos: []
     masterInkAssets: []
     localIncludePaths: []
