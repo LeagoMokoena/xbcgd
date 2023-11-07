@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\sceneChnage.cs" />
     <Compile Include="Assets\scripts\dance\note.cs" />
+    <Compile Include="Assets\scripts\daysStory.cs" />
     <Compile Include="Assets\scripts\Progress.cs" />
     <Compile Include="Assets\scripts\player.cs" />
     <Compile Include="Assets\scripts\dance\Manager.cs" />
@@ -77,7 +78,7 @@
     <Compile Include="Assets\scripts\controller.cs" />
     <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\scripts\voice.cs" />
-    <Compile Include="Assets\scripts\daysStory.cs" />
+    <Compile Include="Assets\scripts\dialogueTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\POLYGON city pack\Read_me.txt" />

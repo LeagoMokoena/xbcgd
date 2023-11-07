@@ -367,6 +367,7 @@
 "Assets/scripts/dialogueChoose.cs"
 "Assets/scripts/dialogueController.cs"
 "Assets/scripts/dialogueDisplay.cs"
+"Assets/scripts/dialogueTrigger.cs"
 "Assets/scripts/interactions.cs"
 "Assets/scripts/NewBehaviourScript.cs"
 "Assets/scripts/NewBehaviourScript1.cs"

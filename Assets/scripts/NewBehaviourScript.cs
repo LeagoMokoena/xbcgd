@@ -51,6 +51,11 @@ public class NewBehaviourScript : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        
+    }
+
     public void Weed_talk()
     {
         SceneManager.LoadScene("Day Onechat 1");
