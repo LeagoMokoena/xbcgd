@@ -67,6 +67,7 @@
     <Compile Include="Assets\scripts\talk.cs" />
     <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\QuitGameOnKeypress.cs" />
     <Compile Include="Assets\scripts\dialogueController.cs" />
+    <Compile Include="Assets\scripts\dialogueTrigger.cs" />
     <Compile Include="Assets\scripts\dance\rythmControls.cs" />
     <Compile Include="Assets\scripts\characters.cs" />
     <Compile Include="Assets\scripts\dance\arrowScroller.cs" />
@@ -78,7 +79,8 @@
     <Compile Include="Assets\scripts\controller.cs" />
     <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\scripts\voice.cs" />
-    <Compile Include="Assets\scripts\dialogueTrigger.cs" />
+    <Compile Include="Assets\scripts\maze.cs" />
+    <Compile Include="Assets\scripts\player_runner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\POLYGON city pack\Read_me.txt" />
