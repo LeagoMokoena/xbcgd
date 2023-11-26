@@ -1,8 +1,5 @@
 Hey there, stranger! What's the rush? Why not take a moment and enjoy the good 
 vibes?
-->main
-
-===main===
 
 *[ Sorry, I'm in a hurry. Maybe another time.]
 No worries, my friend. Life's too short to rush around all the time. Take it easy, and

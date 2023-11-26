@@ -24,8 +24,19 @@ public class daysStory : MonoBehaviour
 
     void refresh()
     {
+        ridUI();
+
+        string t_ex_t = Load();
+
+        List<string> list = story.currentTags;
+
+        if (list.Count > 0)
+        {
+            t_ex_t = "<b>" + tag[0] + "</b> - " + t_ex_t;
+        }
+
         Text storyte = Instantiate(text) as Text;
-        storyte.text = Load();
+        storyte.text = t_ex_t;
         storyte.transform.SetParent(this.transform, false);
 
         foreach (Choice choice in story.currentChoices)
@@ -39,6 +50,14 @@ public class daysStory : MonoBehaviour
             {
                 dialogueChoice(choice);
             });
+        }
+    }
+
+    void ridUI()
+    {
+        for(int i = 0;i<this.transform.childCount;i++)
+        {
+            Destroy(this.transform.GetChild(i).gameObject);
         }
     }
 

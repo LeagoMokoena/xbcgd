@@ -5,7 +5,6 @@ using UnityEngine;
 public class player_runner : MonoBehaviour
 {
     private Rigidbody rb;
-    [SerializeField] private Joystick joystick;
 
     [SerializeField] private float forSpeed;
     [SerializeField] private float speed;
