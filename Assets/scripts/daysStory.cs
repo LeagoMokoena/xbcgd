@@ -1,81 +1,108 @@
+using Ink.Runtime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Text;
-using System.Runtime.CompilerServices;
-using System.Diagnostics;
-using Ink.Runtime;
 using UnityEngine.UI;
 
 public class daysStory : MonoBehaviour
 {
-    public TextAsset textAsset;
-    public Story story;
-    public Text text;
-    public Button button;
+    public TextAsset inkJSONAsset;
+    private Story story;
+    public Button buttonPrefab;
 
-
-    private void Start()
+    
+    void Start()
     {
-        story = new Story(textAsset.text);
+        story = new Story(inkJSONAsset.text);
 
         refresh();
+
     }
 
     void refresh()
     {
-        ridUI();
+       
+        clearUI();
 
-        string t_ex_t = Load();
+      
+        GameObject newGameObject = new GameObject("TextChunk");
+      
+        newGameObject.transform.SetParent(this.transform, false);
 
-        List<string> list = story.currentTags;
+        Text newTextObject = newGameObject.AddComponent<Text>();
+       
+        newTextObject.fontSize = 24;
 
-        if (list.Count > 0)
+     
+        string text = getNextStoryBlock();
+
+        
+        List<string> tags = story.currentTags;
+
+      
+        if (tags.Count > 0)
         {
-            t_ex_t = "<b>" + tag[0] + "</b> - " + t_ex_t;
+            newTextObject.text = "<color=grey>" + tags[0] + "</color> – " + text;
+        }
+        else
+        {
+            newTextObject.text = text;
         }
 
-        Text storyte = Instantiate(text) as Text;
-        storyte.text = t_ex_t;
-        storyte.transform.SetParent(this.transform, false);
+
+        newTextObject.font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
 
         foreach (Choice choice in story.currentChoices)
         {
-            Button _butto = Instantiate(button) as Button;
-            Text _tex = button.GetComponentInChildren<Text>();
-            _tex.text = choice.text;
-            _butto.transform.SetParent(this.transform, false);
+            Button choiceButton = Instantiate(buttonPrefab) as Button;
+            choiceButton.transform.SetParent(this.transform, false);
 
-            _butto.onClick.AddListener(delegate
-            {
-                dialogueChoice(choice);
+     
+            Text choiceText = choiceButton.GetComponentInChildren<Text>();
+            choiceText.text = " " + (choice.index + 1) + ". " + choice.text;
+
+        
+            choiceButton.onClick.AddListener(delegate {
+                OnClickChoiceButton(choice);
             });
+
         }
     }
 
-    void ridUI()
-    {
-        for(int i = 0;i<this.transform.childCount;i++)
-        {
-            Destroy(this.transform.GetChild(i).gameObject);
-        }
-    }
-
-    private void dialogueChoice(Choice choice)
+ 
+    void OnClickChoiceButton(Choice choice)
     {
         story.ChooseChoiceIndex(choice.index);
         refresh();
     }
 
-    private string Load()
-    {
-        string _text = "";
-        if(story.canContinue)
-        {
-            _text = story.ContinueMaximally();
-        }
 
-        return _text;
+    void clearUI()
+    {
+        int childCount = this.transform.childCount;
+        for (int i = childCount - 1; i >= 0; --i)
+        {
+            GameObject.Destroy(this.transform.GetChild(i).gameObject);
+        }
     }
 
+
+
+    string getNextStoryBlock()
+    {
+        string text = "";
+
+        if (story.canContinue)
+        {
+            text = story.ContinueMaximally();
+        }
+
+        return text;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 }

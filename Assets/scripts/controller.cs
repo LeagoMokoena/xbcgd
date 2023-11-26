@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class controller : MonoBehaviour
 {
-    public Camera Camera;
+    //public Camera Camera;
     public float ewalk = 6f;
     public float riun = 12f;
     public float jumo = 7f;
@@ -56,13 +56,13 @@ public class controller : MonoBehaviour
 
        
         characterController.Move(movedir * Time.deltaTime);
-        if (movecan)
+        /*if (movecan)
         {
             rotatex += -Input.GetAxis("Mouse Y") * look;
             rotatex = Mathf.Clamp(rotatex, -lokkx, lokkx);
-            Camera.transform.localRotation = Quaternion.Euler(rotatex, 0, 0);
+            //Camera.transform.localRotation = Quaternion.Euler(rotatex, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * look, 0);
-        }
+        }*/
 
     }
 }
