@@ -11,10 +11,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/dance.unity
-    guid: 4e14107a3bd2a5a4f953857e410b3c9e
-  - enabled: 1
-    path: Assets/Scenes/CHAT.unity
-    guid: f153db7229df8d542a81ebda679af2a1
   m_configObjects: {}

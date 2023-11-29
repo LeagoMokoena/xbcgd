@@ -153,7 +153,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: df729d213c4be44a9b55cd109f5cd4f9, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.091
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6814000ae53867248b0045229101257f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Day Onechat 4
+  _name: SampleScene
 --- !u!1 &102360185
 GameObject:
   m_ObjectHideFlags: 0
