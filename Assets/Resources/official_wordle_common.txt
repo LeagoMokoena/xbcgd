@@ -1,4 +1,12 @@
 table
-worse
-happy
 water
+Chair
+Desk
+Phone
+Lamp
+Paper
+Pencil
+Clock
+Mouse
+Table
+Email

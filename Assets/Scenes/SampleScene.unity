@@ -1565,7 +1565,6 @@ GameObject:
   m_Component:
   - component: {fileID: 215150313}
   - component: {fileID: 215150310}
-  - component: {fileID: 215150314}
   - component: {fileID: 215150315}
   m_Layer: 0
   m_Name: Weed
@@ -1603,19 +1602,6 @@ Transform:
   m_Father: {fileID: 1930940237}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &215150314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 215150308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77f55015b29e183469accc6acb1aa15a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  talk: {fileID: 582817869}
 --- !u!212 &215150315
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2446,7 +2432,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1487109565}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -2554,7 +2540,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Today you are assign to sort out all the stock in the business offices
+  m_text: Here is a the club where perform your best moves.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3118,6 +3104,152 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 313005957208111666, guid: 220358f140923f042af2584f37bdffe3, type: 3}
   m_PrefabInstance: {fileID: 330805688}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &342573023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 342573029}
+  - component: {fileID: 342573028}
+  - component: {fileID: 342573027}
+  - component: {fileID: 342573026}
+  - component: {fileID: 342573025}
+  - component: {fileID: 342573024}
+  m_Layer: 5
+  m_Name: Canvas (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &342573024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342573023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288ad2d3f0674ff459c7bcd7f5e13caa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inkJSONAsset:
+  - {fileID: 4900000, guid: 9dc93f4ab195c434b8531a2cb852d2b5, type: 3}
+  - {fileID: 4900000, guid: 8e771199f09f37f499d69fb2cc962821, type: 3}
+  - {fileID: 4900000, guid: 2656a17804078f34791c6b86ccefa689, type: 3}
+  buttonPrefab: {fileID: 7833293203266918986, guid: cfe2f4047df622045997aada97c05728, type: 3}
+  player: {fileID: 2146541295}
+--- !u!114 &342573025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342573023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &342573026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342573023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &342573027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342573023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &342573028
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342573023}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &342573029
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342573023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &349838526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6199,6 +6331,7 @@ GameObject:
   - component: {fileID: 647425721}
   - component: {fileID: 647425720}
   - component: {fileID: 647425719}
+  - component: {fileID: 647425722}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -6289,6 +6422,39 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &647425722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647425718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad00fe63152637458da4d83482a4fe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meth: {fileID: 0}
+  game: {fileID: 0}
+  tx: {fileID: 0}
+  emptyState:
+    fillColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  occupiedState:
+    fillColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  correctState:
+    fillColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  wrongSpotState:
+    fillColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  incorrectState:
+    fillColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+  tryAgainButton: {fileID: 0}
+  newWordButton: {fileID: 0}
+  invalidWordText: {fileID: 0}
 --- !u!1001 &648298214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10917,7 +11083,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1148219862
 Transform:
   m_ObjectHideFlags: 0
@@ -12185,7 +12351,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2052747690}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -13382,6 +13548,7 @@ GameObject:
   - component: {fileID: 1487109566}
   - component: {fileID: 1487109568}
   - component: {fileID: 1487109567}
+  - component: {fileID: 1487109569}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -13434,7 +13601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5f1b1f3a741ce9b4e9ad242cde901413, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 263d0eb17c2638540afeee6e4c3c8fd1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13452,6 +13619,102 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487109565}
   m_CullTransparentMesh: 1
+--- !u!82 &1487109569
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487109565}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: baff41cbf41306e4d967fc3b30e3d671, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1499569423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14856,7 +15119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1640474504
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15142,7 +15405,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0358215fcc39484b8650e87351fe2e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSONAsset: {fileID: 4900000, guid: c03bc110b9754aa4e8a9c3b0b28457cc, type: 3}
+  inkJSONAsset:
+  - {fileID: 4900000, guid: c03bc110b9754aa4e8a9c3b0b28457cc, type: 3}
+  - {fileID: 4900000, guid: 33f3b5afd7082fd4bba21e2ae8ec133f, type: 3}
+  - {fileID: 4900000, guid: 69338de459ac0884084a26443115e63a, type: 3}
   buttonPrefab: {fileID: 7833293203266918986, guid: cfe2f4047df622045997aada97c05728, type: 3}
   player: {fileID: 2146541295}
   ob: {fileID: 879929687}
@@ -15705,7 +15971,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1756656134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15799,7 +16065,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288ad2d3f0674ff459c7bcd7f5e13caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSONAsset: {fileID: 4900000, guid: 4b7ae148e9b23aa40ba03896c64210dd, type: 3}
+  inkJSONAsset:
+  - {fileID: 4900000, guid: 4b7ae148e9b23aa40ba03896c64210dd, type: 3}
+  - {fileID: 4900000, guid: e370f2afcd4b9c246b9a819c9b56560b, type: 3}
+  - {fileID: 4900000, guid: 9c7f35df86359db429825109ad4002ee, type: 3}
   buttonPrefab: {fileID: 7833293203266918986, guid: cfe2f4047df622045997aada97c05728, type: 3}
   player: {fileID: 2146541295}
 --- !u!114 &1756656139
@@ -17094,7 +17363,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930940236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.68, y: 30.163069, z: -77.41}
+  m_LocalPosition: {x: 51.2, y: 30.163069, z: -33.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17379,7 +17648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288ad2d3f0674ff459c7bcd7f5e13caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSONAsset: {fileID: 4900000, guid: 4b7ae148e9b23aa40ba03896c64210dd, type: 3}
+  inkJSONAsset: []
   buttonPrefab: {fileID: 7833293203266918986, guid: cfe2f4047df622045997aada97c05728, type: 3}
   player: {fileID: 0}
 --- !u!114 &1945747688
@@ -17441,7 +17710,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288ad2d3f0674ff459c7bcd7f5e13caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSONAsset: {fileID: 4900000, guid: 3e61af54311ac3f4d84609f56cbefa25, type: 3}
+  inkJSONAsset:
+  - {fileID: 4900000, guid: 3e61af54311ac3f4d84609f56cbefa25, type: 3}
+  - {fileID: 4900000, guid: 63c0214b585e0c24bb3693f71dfd1182, type: 3}
+  - {fileID: 4900000, guid: 8e771199f09f37f499d69fb2cc962821, type: 3}
   buttonPrefab: {fileID: 7833293203266918986, guid: cfe2f4047df622045997aada97c05728, type: 3}
   player: {fileID: 2146541295}
 --- !u!114 &1954354820
@@ -18534,8 +18806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter the three main stock that the company would want to secure most in
-    the offices
+  m_text: Try to copy the move list selceted and you win likes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18815,7 +19086,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2052747691
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19494,8 +19765,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2353dfb83b3ac034d8592f26d3c9cdb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  days: {fileID: 0}
-  likes: {fileID: 0}
+  days: {fileID: 1526492201}
+  likes: {fileID: 439427031}
   ewalk: 6
   riun: 12
   jumo: 7
@@ -19517,7 +19788,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146541295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.4, y: 0.86564696, z: -31.98}
+  m_LocalPosition: {x: 5.53, y: 0.86564696, z: -31.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19554,7 +19825,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 2146541295}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 1
   m_Direction: 1

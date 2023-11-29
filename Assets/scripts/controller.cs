@@ -70,13 +70,6 @@ public class controller : MonoBehaviour
         likes.text = num.ToString();
         days.text = numer.ToString();
 
-        if(Input.GetKeyDown(KeyCode.P))
-        {
-            tal.SetActive(true);
-            talr.SetActive(true);
-            this.gameObject.SetActive(false);
-        }
-
     }
 
 
@@ -104,11 +97,6 @@ public class controller : MonoBehaviour
         }
 
         if(other.tag == "dance")
-        {
-
-        }
-
-        if(other.tag == "home")
         {
 
         }

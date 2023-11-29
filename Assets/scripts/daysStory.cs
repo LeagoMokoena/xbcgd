@@ -7,14 +7,14 @@ using UnityEngine.EventSystems;
 
 public class daysStory : MonoBehaviour
 {
-    public TextAsset inkJSONAsset;
+    public TextAsset[] inkJSONAsset;
     private Story story;
     public Button buttonPrefab;
     public GameObject player;
-    
+    private int i = 0;
     void Start()
     {
-        story = new Story(inkJSONAsset.text);
+        story = new Story(inkJSONAsset[i].text);
 
         refresh();
 
@@ -123,7 +123,9 @@ public class daysStory : MonoBehaviour
 
     void slesrt()
     {
+        i++;
         player.GetComponent<controller>().num += 2;
+        story = new Story(inkJSONAsset[i].text);
         this.gameObject.SetActive(false);
         player.SetActive(true);
     }

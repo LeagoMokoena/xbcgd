@@ -8,7 +8,7 @@ using Ink.Runtime;
 
 public class Storur : MonoBehaviour
 {
-    public TextAsset inkJSONAsset;
+    public TextAsset[] inkJSONAsset;
     private Story story;
     public Button buttonPrefab;
     public GameObject player,ob;
@@ -16,7 +16,7 @@ public class Storur : MonoBehaviour
 
     void Start()
     {
-        story = new Story(inkJSONAsset.text);
+        story = new Story(inkJSONAsset[0].text);
 
         refresh();
 
@@ -126,7 +126,7 @@ public class Storur : MonoBehaviour
     void slesrt()
     {
         player.GetComponent<controller>().num += 2;
-        this.gameObject.SetActive(false);
+        this.gameObject.transform.position = (transform.position - player.transform.position).normalized;
         ob.gameObject.SetActive(false);
         player.SetActive(true);
     }
