@@ -18,14 +18,14 @@ public class controller : MonoBehaviour
     float rotatex = 0;
 
     public bool movecan = true;
-
+    public GameObject tal, talr,til,cam;
     CharacterController characterController;
     // Start is called before the first frame update
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -56,13 +56,45 @@ public class controller : MonoBehaviour
 
        
         characterController.Move(movedir * Time.deltaTime);
-        /*if (movecan)
+        if (movecan)
         {
             rotatex += -Input.GetAxis("Mouse Y") * look;
             rotatex = Mathf.Clamp(rotatex, -lokkx, lokkx);
             //Camera.transform.localRotation = Quaternion.Euler(rotatex, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * look, 0);
-        }*/
+        }
 
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            tal.SetActive(true);
+            talr.SetActive(true);
+            this.gameObject.SetActive(false);
+        }
+
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.tag == "coc")
+        {
+            til.gameObject.SetActive(true);
+            this.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "coc")
+        {
+            til.gameObject.SetActive(true);
+            cam.gameObject.SetActive(true);
+            this.gameObject.SetActive(false);
+        }
+
+        if(other.tag == "work")
+        {
+            tal.SetActive(true);
+        }
     }
 }

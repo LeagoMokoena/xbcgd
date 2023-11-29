@@ -380,6 +380,7 @@
 "Assets/scripts/Progress.cs"
 "Assets/scripts/Question.cs"
 "Assets/scripts/sceneChnage.cs"
+"Assets/scripts/Storur.cs"
 "Assets/scripts/talk.cs"
 "Assets/scripts/voice.cs"
 -langversion:9.0

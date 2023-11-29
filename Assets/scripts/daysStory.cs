@@ -3,13 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class daysStory : MonoBehaviour
 {
     public TextAsset inkJSONAsset;
     private Story story;
     public Button buttonPrefab;
-
+    public GameObject player;
     
     void Start()
     {
@@ -31,12 +32,16 @@ public class daysStory : MonoBehaviour
 
         Text newTextObject = newGameObject.AddComponent<Text>();
        
-        newTextObject.fontSize = 24;
+        newTextObject.fontSize = 30;
 
      
         string text = getNextStoryBlock();
+        if(text == "")
+        {
+            slesrt();
 
-        
+        }
+
         List<string> tags = story.currentTags;
 
       
@@ -67,6 +72,8 @@ public class daysStory : MonoBehaviour
             });
 
         }
+
+        //StartCoroutine(select());
     }
 
  
@@ -96,8 +103,28 @@ public class daysStory : MonoBehaviour
         {
             text = story.ContinueMaximally();
         }
+        else
+        {
+            StartCoroutine(select());
+        }
+       
 
         return text;
+    }
+
+    private IEnumerator select()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        yield return new WaitForEndOfFrame();
+        this.gameObject.SetActive(false);
+       player.SetActive(true);
+
+    }
+
+    void slesrt()
+    {
+        this.gameObject.SetActive(false);
+        player.SetActive(true);
     }
 
     // Update is called once per frame

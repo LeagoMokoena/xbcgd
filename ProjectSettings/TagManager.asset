@@ -7,6 +7,8 @@ TagManager:
   - Affection
   - Time
   - progress
+  - coc
+  - work
   layers:
   - Default
   - TransparentFX
