@@ -24,6 +24,17 @@ MonoBehaviour:
     masterInkAssets: []
     localIncludePaths: []
     includes: []
+  - inkAsset: {fileID: 102900000, guid: a9bc3fad953217447a6dd61f7595994a, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 4900000, guid: 9dc93f4ab195c434b8531a2cb852d2b5, type: 3}
+    unhandledCompileErrors: []
+    recursiveIncludeErrorPaths: []
+    errors: []
+    warnings: []
+    todos: []
+    masterInkAssets: []
+    localIncludePaths: []
+    includes: []
   - inkAsset: {fileID: 102900000, guid: 3fbaef344c2e1d544a221b31b2061ad1, type: 3}
     jsonAssetDirectory: {fileID: 0}
     jsonAsset: {fileID: 4900000, guid: c03bc110b9754aa4e8a9c3b0b28457cc, type: 3}
@@ -35,9 +46,42 @@ MonoBehaviour:
     masterInkAssets: []
     localIncludePaths: []
     includes: []
+  - inkAsset: {fileID: 102900000, guid: 5b3ff56e2ad811843bdd3a5ac37fde0c, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 4900000, guid: 3e61af54311ac3f4d84609f56cbefa25, type: 3}
+    unhandledCompileErrors: []
+    recursiveIncludeErrorPaths: []
+    errors: []
+    warnings: []
+    todos: []
+    masterInkAssets: []
+    localIncludePaths: []
+    includes: []
   - inkAsset: {fileID: 102900000, guid: 7be457b7737982a47a0e69e8165a9601, type: 3}
     jsonAssetDirectory: {fileID: 0}
     jsonAsset: {fileID: 4900000, guid: 4b7ae148e9b23aa40ba03896c64210dd, type: 3}
+    unhandledCompileErrors: []
+    recursiveIncludeErrorPaths: []
+    errors: []
+    warnings: []
+    todos: []
+    masterInkAssets: []
+    localIncludePaths: []
+    includes: []
+  - inkAsset: {fileID: 102900000, guid: 44a429e245275c34dabf501f9135a467, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 4900000, guid: e370f2afcd4b9c246b9a819c9b56560b, type: 3}
+    unhandledCompileErrors: []
+    recursiveIncludeErrorPaths: []
+    errors: []
+    warnings: []
+    todos: []
+    masterInkAssets: []
+    localIncludePaths: []
+    includes: []
+  - inkAsset: {fileID: 102900000, guid: 53d833c62b635594ca588ad69cbc66fe, type: 3}
+    jsonAssetDirectory: {fileID: 0}
+    jsonAsset: {fileID: 4900000, guid: 9c7f35df86359db429825109ad4002ee, type: 3}
     unhandledCompileErrors: []
     recursiveIncludeErrorPaths: []
     errors: []
