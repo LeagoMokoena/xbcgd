@@ -21,7 +21,7 @@ public class controller : MonoBehaviour
     float rotatex = 0;
     public int num = 0, numer = 0;
     public bool movecan = true;
-    public GameObject tal, talr,til,cam;
+    public GameObject tal, talr,til,cam,dalc;
     CharacterController characterController;
     // Start is called before the first frame update
     void Start()

@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class note : MonoBehaviour
 {
     private static readonly KeyCode[] SUPPORTED_KEYS = new KeyCode[] {
