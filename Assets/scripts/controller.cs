@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class controller : MonoBehaviour
 {
+    public Text days, likes;
+
     //public Camera Camera;
     public float ewalk = 6f;
     public float riun = 12f;
@@ -16,7 +19,7 @@ public class controller : MonoBehaviour
 
     Vector3 movedir = Vector3.zero;
     float rotatex = 0;
-
+    public int num = 0, numer = 0;
     public bool movecan = true;
     public GameObject tal, talr,til,cam;
     CharacterController characterController;
@@ -64,6 +67,9 @@ public class controller : MonoBehaviour
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * look, 0);
         }
 
+        likes.text = num.ToString();
+        days.text = numer.ToString();
+
         if(Input.GetKeyDown(KeyCode.P))
         {
             tal.SetActive(true);
@@ -95,6 +101,16 @@ public class controller : MonoBehaviour
         if(other.tag == "work")
         {
             tal.SetActive(true);
+        }
+
+        if(other.tag == "dance")
+        {
+
+        }
+
+        if(other.tag == "home")
+        {
+
         }
     }
 }

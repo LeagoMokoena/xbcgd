@@ -123,6 +123,7 @@ public class daysStory : MonoBehaviour
 
     void slesrt()
     {
+        player.GetComponent<controller>().num += 2;
         this.gameObject.SetActive(false);
         player.SetActive(true);
     }

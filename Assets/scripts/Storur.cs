@@ -12,6 +12,7 @@ public class Storur : MonoBehaviour
     private Story story;
     public Button buttonPrefab;
     public GameObject player,ob;
+    
 
     void Start()
     {
@@ -124,6 +125,7 @@ public class Storur : MonoBehaviour
 
     void slesrt()
     {
+        player.GetComponent<controller>().num += 2;
         this.gameObject.SetActive(false);
         ob.gameObject.SetActive(false);
         player.SetActive(true);

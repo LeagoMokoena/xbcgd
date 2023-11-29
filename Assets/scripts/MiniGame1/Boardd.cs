@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Boardd : MonoBehaviour
 {
@@ -11,6 +13,9 @@ public class Boardd : MonoBehaviour
         KeyCode.S, KeyCode.T, KeyCode.U, KeyCode.V, KeyCode.W, KeyCode.X,
         KeyCode.Y, KeyCode.Z,
     };
+
+    public GameObject meth,game;
+    public Text tx;
 
     private Rows[] rows;
     private int rowIndex;
@@ -32,6 +37,7 @@ public class Boardd : MonoBehaviour
     public GameObject newWordButton;
     public GameObject invalidWordText;
 
+    private int timerl = 0;
     private void Awake()
     {
         rows = GetComponentsInChildren<Rows>();
@@ -41,6 +47,7 @@ public class Boardd : MonoBehaviour
     {
         LoadData();
         NewGame();
+        tx.text = "Score: " + timerl.ToString();
     }
 
     private void LoadData()
@@ -75,6 +82,8 @@ public class Boardd : MonoBehaviour
 
     private void Update()
     {
+        
+
         Rows currentRow = rows[rowIndex];
 
         if (Input.GetKeyDown(KeyCode.Backspace))
@@ -162,6 +171,14 @@ public class Boardd : MonoBehaviour
         if (HasWon(row))
         {
             enabled = false;
+            timerl += 1;
+            tx.text = "Score: " + timerl.ToString();
+        }
+
+        if(timerl == 1)
+        {
+            game.gameObject.SetActive(false);
+            meth.gameObject.SetActive(true);
         }
 
         rowIndex++;
