@@ -94,7 +94,6 @@ public class controller : MonoBehaviour
         if(other.tag == "work")
         {
             tal.SetActive(true);
-            
         }
 
         if(other.tag == "dance")
