@@ -1,23 +1,26 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Manager
-    - NewBehaviourScript
+    - Boardd
     - Progress
-    - Question
-    - arrowScroller
-    - characters
+    - Rows
+    - Storur
+    - Tiles
     - controller
-    - dialogueChoose
-    - dialogueController
-    - dialogueDisplay
-    - note
-    - rythmControls
+    - daysStory
     - sceneChnage
-    - talk
-    - voice
+    InkEditor.dll:
+    - Ink.UnityIntegration.InkCompiler
+    - Ink.UnityIntegration.InkLibrary
+    - Ink.UnityIntegration.InkPlayerWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -28,19 +31,40 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Assembly-CSharp:
-    - choice
-    - line
-    - questionEvent
-    - talkevent
+    - Tiles/State
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
@@ -66,88 +90,49 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
-    fullTypeName: dialogueChoose
-    methodName: change
+    fullTypeName: Boardd
+    methodName: NewGame
   - assembly: Assembly-CSharp
-    fullTypeName: dialogueController
-    methodName: makle
-  - assembly: Assembly-CSharp
-    fullTypeName: dialogueDisplay
-    methodName: changes
-  - assembly: Assembly-CSharp
-    fullTypeName: dialogueChoose
-    methodName: hid
+    fullTypeName: Boardd
+    methodName: TryAgain
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   sceneClasses:
-    Assets/Scenes/CHAT.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1564}
-    - Class: 114
-      Script: {instanceID: 2626}
-    - Class: 114
-      Script: {instanceID: 2852}
-    - Class: 114
-      Script: {instanceID: 3158}
-    - Class: 114
-      Script: {instanceID: 3258}
-    - Class: 114
-      Script: {instanceID: 3760}
-    - Class: 114
-      Script: {instanceID: 4106}
-    - Class: 114
-      Script: {instanceID: 4988}
-    - Class: 114
-      Script: {instanceID: 5368}
-    - Class: 114
-      Script: {instanceID: 5554}
-    - Class: 114
-      Script: {instanceID: 5890}
-    - Class: 114
-      Script: {instanceID: 6386}
-    - Class: 114
-      Script: {instanceID: 7320}
-    - Class: 114
-      Script: {instanceID: 8324}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/Dance floor.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -161,6 +146,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -174,23 +161,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1564}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 1586}
+      Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 2626}
+      Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 2234}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 2690}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 2918}
     - Class: 114
-      Script: {instanceID: 5554}
+      Script: {instanceID: 3240}
     - Class: 114
-      Script: {instanceID: 5890}
+      Script: {instanceID: 4352}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 4636}
+    - Class: 114
+      Script: {instanceID: 5346}
+    - Class: 114
+      Script: {instanceID: 5446}
+    - Class: 114
+      Script: {instanceID: 6080}
+    - Class: 114
+      Script: {instanceID: 6598}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -226,9 +221,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -237,97 +240,50 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1564}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 2476}
+      Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 2626}
+      Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 2690}
     - Class: 114
-      Script: {instanceID: 5554}
+      Script: {instanceID: 2918}
     - Class: 114
-      Script: {instanceID: 5890}
+      Script: {instanceID: 2952}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 3240}
     - Class: 114
-      Script: {instanceID: 7620}
+      Script: {instanceID: 4548}
     - Class: 114
-      Script: {instanceID: 7928}
+      Script: {instanceID: 5268}
+    - Class: 114
+      Script: {instanceID: 5356}
+    - Class: 114
+      Script: {instanceID: 5446}
+    - Class: 114
+      Script: {instanceID: 6080}
+    - Class: 114
+      Script: {instanceID: 6234}
+    - Class: 114
+      Script: {instanceID: 6598}
+    - Class: 114
+      Script: {instanceID: 6964}
+    - Class: 114
+      Script: {instanceID: 7050}
+    - Class: 114
+      Script: {instanceID: 7866}
+    - Class: 114
+      Script: {instanceID: 8240}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
     - Class: 143
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/dance.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 58
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1564}
-    - Class: 114
-      Script: {instanceID: 1636}
-    - Class: 114
-      Script: {instanceID: 2626}
-    - Class: 114
-      Script: {instanceID: 2852}
-    - Class: 114
-      Script: {instanceID: 3024}
-    - Class: 114
-      Script: {instanceID: 3158}
-    - Class: 114
-      Script: {instanceID: 4684}
-    - Class: 114
-      Script: {instanceID: 5206}
-    - Class: 114
-      Script: {instanceID: 5554}
-    - Class: 114
-      Script: {instanceID: 5890}
-    - Class: 114
-      Script: {instanceID: 6386}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -346,10 +302,10 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 699619b86d9359741a4f58540298c80b
     assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UIElements
-    className: PanelRaycaster
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -359,12 +315,18 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0e1de4efc77cdfe6ae680bf03548d9d6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: sceneChnage
   - hash:
       serializedVersion: 2
-      Hash: 0bb7ac2d8a7b1e43ff20039942803943
+      Hash: 46604abe07210556e29bb60060c76d91
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: note
@@ -392,6 +354,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 2e10936c465d7d61c813bf4009e238ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: daysStory
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -520,6 +488,12 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rows
+  - hash:
+      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -598,7 +572,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 942b0b1cec7b62335be3cad366aa9aef
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: dialogueDisplay
@@ -676,6 +650,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: bcb3cc685fdd3a8b294e500b0ddbb39f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BasicInkExample
+  - hash:
+      serializedVersion: 2
       Hash: f96d33be0d3ed40b268e3e04f0a30f3b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -704,6 +684,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 745fafd626ee48fff45c3e26daf68c04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuitGameOnKeypress
+  - hash:
+      serializedVersion: 2
+      Hash: fc6735f48b34c5c542b96746d59fd383
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: player_runner
   - hash:
       serializedVersion: 2
       Hash: 2f91ab78bb1462a165623336099ddfff
@@ -766,6 +758,12 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: dialogueTrigger
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -776,6 +774,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 46604abe07210556e29bb60060c76d91
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Boardd
   - hash:
       serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
@@ -800,6 +804,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: rythmControls
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: maze
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -854,6 +864,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: bd9d891d9adab1ef694d10af3665042a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Storur
   - hash:
       serializedVersion: 2
       Hash: bcaee4c2a83047257b5f47d6ed264b75
@@ -928,10 +944,10 @@ ScriptsOnlyBuild:
     className: UnityOnDeselectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewBehaviourScript1
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -962,6 +978,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: interactions
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1138,7 +1160,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 979fcbc0a4f64b9c4fb8e0526c728caf
+      Hash: b9ea7450bf29a0bc9a8fab071a8a83f8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: controller
@@ -1186,6 +1208,12 @@ ScriptsOnlyBuild:
     className: NewBehaviourScript
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tiles
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1224,6 +1252,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Dance floor.unity
   - Assets/Scenes/SampleScene.unity
-  - Assets/Scenes/dance.unity
-  - Assets/Scenes/CHAT.unity
-  playerPath: C:/Users/leago/Documents/GitHub/xbcgd/New folder/xbcgd.exe
+  playerPath: C:/Users/leago/Documents/GitHub/xbcgd/Wil_Build_2/xbcgd.exe
