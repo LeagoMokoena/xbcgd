@@ -383,6 +383,7 @@
 "Assets/scripts/Storur.cs"
 "Assets/scripts/talk.cs"
 "Assets/scripts/voice.cs"
+"Assets/_Manager_.cs"
 -langversion:9.0
 
 /deterministic

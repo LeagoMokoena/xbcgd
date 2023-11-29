@@ -85,6 +85,7 @@
     <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\scripts\MiniGame1\Tiles.cs" />
     <Compile Include="Assets\scripts\voice.cs" />
+    <Compile Include="Assets\_Manager_.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
